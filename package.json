@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "bilan de ventes",
   "main": "index.js",
-  "private" : true,
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Mikael503/bilan-ventes/issues"
   },
-  "homepage": "https://github.com/Mikael503/bilan-ventes#readme"
+  "homepage": "https://github.com/Mikael503/bilan-ventes#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
 }
