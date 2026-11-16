@@ -9,7 +9,7 @@ async function fetchJson(path) {
     return response.json();
 }
 
-return await response.json();
+ await response.json();
     } catch (error) {
         if (error instanceof ApiError){
             throw error;
